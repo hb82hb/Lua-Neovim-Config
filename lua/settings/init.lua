@@ -29,3 +29,8 @@ set.cursorline = true
 
 set.hidden = true
 
+vim.api.nvim_command([[
+augroup AutoCompileMarkdown
+autocmd BufEnter,BufRead *.md :set spell
+augroup END 
+]])
