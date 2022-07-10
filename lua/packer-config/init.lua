@@ -16,6 +16,7 @@ return require'packer'.startup(function()
     use 'nvim-lua/plenary.nvim'
     use 'nvim-telescope/telescope.nvim'
     use 'tpope/vim-commentary'
+    use 'instant-markdown/vim-instant-markdown'
 
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
