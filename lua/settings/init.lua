@@ -2,8 +2,6 @@ local set = vim.opt
 
 vim.notify = require("notify")
 
-set.clipboard=unnamedplus
-
 set.expandtab = true
 set.smarttab = true
 set.shiftwidth = 4
@@ -28,6 +26,7 @@ set.number = true
 set.cursorline = true
 
 set.hidden = true
+
 
 vim.api.nvim_command([[
 augroup AutoCompileMarkdown

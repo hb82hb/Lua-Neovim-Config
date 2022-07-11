@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/ben/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/home/ben/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
   ["nightfox.nvim"] = {
     loaded = true,
     path = "/home/ben/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
@@ -168,11 +173,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
-  },
-  ["vim-instant-markdown"] = {
-    loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-instant-markdown",
-    url = "https://github.com/instant-markdown/vim-instant-markdown"
   }
 }
 
